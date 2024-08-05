@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.field {
+    height: 340px;
+    width: 200px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 370px;
+    width: 270px;
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    color: white;
+}
+
+.input-cep,
+.input-rua,
+.input-numero,
+.input-bairro,
+.input-cidade,
+.input-estado {
+    background: transparent;
+
+}
